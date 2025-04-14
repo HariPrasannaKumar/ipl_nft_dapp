@@ -1,0 +1,77 @@
+{
+  "players": 
+  [
+    {
+      "name": "MS Dhoni",
+      "team": "Chennai Super Kings",
+      "role": "Captain - Batsman - Wicketkeeper",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/MS_Dhoni.png"
+    },
+    {
+      "name": "Virat Kohli",
+      "team": "Royal Challengers Bangalore",
+      "role": "Captain - Batsman",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Virat_Kohli.png"
+    },
+    {
+      "name": "Rohit Sharma",
+      "team": "Mumbai Indians",
+      "role": "Captain - Batsman",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Rohit_Sharma.png"
+    },
+    {
+      "name": "Ajinkya Rahane",
+      "team": "Kolkata Knight Riders",
+      "role": "Captain - Batsman",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Ajinkya_Rahane.png"
+    },
+    {
+      "name": "KL Rahul",
+      "team": "Delhi Capitals",
+      "role": "Captain - Batsman",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/KL_Rahul.png"
+    },
+    {
+      "name": "Pat Cummins",
+      "team": "Sunrisers Hyderabad",
+      "role": "Captain - Bowler",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Pat_Cummins.png"
+    },
+    {
+      "name": "Rishabh Pant",
+      "team": "Delhi Capitals",
+      "role": "Batsman - Wicketkeeper",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Rishabh_Pant.png"
+    },
+    {
+      "name": "Sanju Samson",
+      "team": "Rajasthan Royals",
+      "role": "Captain - Batsman - Wicketkeeper",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Sanju_Samson.png"
+    },
+    {
+      "name": "Shreyas Iyer",
+      "team": "Kolkata Knight Riders",
+      "role": "Captain - Batsman",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Shreyas_Iyer.png"
+    },
+    {
+      "name": "Shubman Gill",
+      "team": "Gujarat Titans",
+      "role": "Captain - Batsman",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Shubman_Gill.png"
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "team": "Chennai Super Kings",
+      "role": "Captain - All rounder",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Ravindra_Jadeja.png"
+    },
+    {
+      "name": "Surya Kumar Yadav",
+      "team": "Mumbai Indians",
+      "role": "Captain - Batsman",
+      "image": "https://ipfs.io/ipfs/bafybeiazsav4iqoyobg3qbfv3hiwfa6p2enu3shtrzl7aivghmnl6vwgde/Surya_Kumar_Yadav.png"
+    }
+  ]
+}

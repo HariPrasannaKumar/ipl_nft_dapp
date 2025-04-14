@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>IPL Player NFTs</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        margin: 0;
+        padding: 2rem;
+        background: url("https://violet-hilarious-scallop-5.mypinata.cloud/ipfs/bafybeib2nm3qjnfx773ewixwwjvu5ubx4eysn5dztuhdvwoof2n4ux3o6e")
+          no-repeat center center fixed;
+        background-size: cover;
+        color: #ffffff;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        color: #ffffff;
+      }
+
+      header h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #ffffff;
+      }
+
+      button {
+        background: #4f46e5;
+        color: white;
+        padding: 0.6rem 1.2rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background: #4338ca;
+      }
+
+      .wallet {
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        color: #d1d5db;
+        text-align: right;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(
+          auto-fit,
+          minmax(240px, 1fr)
+        );
+        gap: 2rem;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.08);
+        border: 2px solid #ffffff20;
+        border-radius: 16px;
+        padding: 1rem;
+        text-align: center;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+        transition: transform 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-6px);
+      }
+
+      .card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 12px;
+        margin-bottom: 1rem;
+      }
+
+      .card h3 {
+        margin: 0.5rem 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #ffffff;
+      }
+
+      .card p {
+        margin: 0.2rem 0;
+        font-size: 0.9rem;
+        color: #e5e7eb;
+      }
+
+      .card button {
+        margin-top: 1rem;
+        width: 100%;
+        background-color: #ff5722;
+        border: none;
+        padding: 0.6rem;
+        border-radius: 10px;
+        font-weight: 600;
+        transition: background 0.3s ease;
+      }
+
+      .card button:hover {
+        background-color: #e64a19;
+      }
+
+      #ethPrice {
+        margin-top: 2rem;
+        font-weight: 600;
+        font-size: 1rem;
+        text-align: center;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>🏏 IPL Player NFTs</h1>
+      <div>
+        <button id="connectButton">Connect Wallet</button>
+        <p class="wallet" id="walletAddress"></p>
+      </div>
+    </header>
+
+    <div id="players" class="grid"></div>
+    <p id="ethPrice"></p>
+
+    <script type="module" src="./debugged_main.js"></script>
+  </body>
+</html>

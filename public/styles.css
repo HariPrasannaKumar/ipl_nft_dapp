@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 2rem;
+    background: url("https://violet-hilarious-scallop-5.mypinata.cloud/ipfs/bafybeib2nm3qjnfx773ewixwwjvu5ubx4eysn5dztuhdvwoof2n4ux3o6e") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+  }  
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+  }
+  
+  #walletAddress {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    color: #ddd;
+  }
+  
+  #connectButton {
+    display: block;
+    margin: 20px auto;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #connectButton:hover {
+    background-color: #574fda;
+  }
+  
+  #players {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffffff22;
+    backdrop-filter: blur(8px);
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .card h3 {
+    margin: 10px 0 5px;
+    color: #fff;
+  }
+  
+  .card p {
+    margin: 4px 0;
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  .card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #e64a19;
+  }
+  
