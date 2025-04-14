@@ -1,0 +1,36 @@
+name: Build and Deploy IPL DApp
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint (optional)
+        run: echo "No lint configured"
+
+      - name: Build (optional)
+        run: echo "No build step required"
+
+      - name: Vercel Deploy (Manual Token Required)
+        run: |
+          npm install -g vercel
+          vercel --prod --confirm --token=$VERCEL_TOKEN
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}

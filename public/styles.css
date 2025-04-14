@@ -47,12 +47,15 @@ body {
   
   .card {
     background-color: rgba(255, 255, 255, 0.1);
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border: 2px solid #ffffff22;
     backdrop-filter: blur(8px);
     border-radius: 16px;
     padding: 16px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #111; /* default fallback color */
   }
   
   .card:hover {
@@ -67,13 +70,15 @@ body {
   
   .card h3 {
     margin: 10px 0 5px;
-    color: #fff;
+    color: #222;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   }
   
   .card p {
     margin: 4px 0;
     font-size: 0.9rem;
-    color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
   
   .card button {
